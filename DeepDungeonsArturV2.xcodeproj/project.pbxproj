@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED153D0B21B6FFB600095F03 /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED153D0A21B6FFB600095F03 /* Variables.swift */; };
+		ED153D0F21B708F800095F03 /* ViewInventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED153D0E21B708F800095F03 /* ViewInventory.swift */; };
+		ED22754521B9A27C00F2DB35 /* Dado.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED22754421B9A27C00F2DB35 /* Dado.swift */; };
+		ED5A4B1421B98134000775AF /* Gamecontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5A4B1321B98134000775AF /* Gamecontrol.swift */; };
+		ED99BD2721AEDF9000C3B831 /* Heroe.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99BD2621AEDF9000C3B831 /* Heroe.swift */; };
+		ED99BD2921AEDFF300C3B831 /* Stuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99BD2821AEDFF300C3B831 /* Stuff.swift */; };
+		ED99BD2B21AEE01600C3B831 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99BD2A21AEE01600C3B831 /* Item.swift */; };
+		ED99BD2D21AEE03E00C3B831 /* Monstruo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99BD2C21AEE03E00C3B831 /* Monstruo.swift */; };
+		EDB1789221B93065000EF743 /* Shopcontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1789121B93065000EF743 /* Shopcontrol.swift */; };
+		EDB1789421B95F1F000EF743 /* Dungeoncontrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB1789321B95F1F000EF743 /* Dungeoncontrol.swift */; };
 		EDC5077921ADCC3900B039E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5077821ADCC3900B039E3 /* AppDelegate.swift */; };
 		EDC5077B21ADCC3900B039E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5077A21ADCC3900B039E3 /* ViewController.swift */; };
 		EDC5077E21ADCC3900B039E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC5077C21ADCC3900B039E3 /* Main.storyboard */; };
@@ -14,6 +24,7 @@
 		EDC5078321ADCC3A00B039E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC5078121ADCC3A00B039E3 /* LaunchScreen.storyboard */; };
 		EDC5078E21ADCC3A00B039E3 /* DeepDungeonsArturV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5078D21ADCC3A00B039E3 /* DeepDungeonsArturV2Tests.swift */; };
 		EDC5079921ADCC3A00B039E3 /* DeepDungeonsArturV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC5079821ADCC3A00B039E3 /* DeepDungeonsArturV2UITests.swift */; };
+		EDD7868921C03532003E8315 /* MenucontrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD7868821C03532003E8315 /* MenucontrolViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED153D0A21B6FFB600095F03 /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		ED153D0E21B708F800095F03 /* ViewInventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInventory.swift; sourceTree = "<group>"; };
+		ED22754421B9A27C00F2DB35 /* Dado.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dado.swift; sourceTree = "<group>"; };
+		ED5A4B1321B98134000775AF /* Gamecontrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamecontrol.swift; sourceTree = "<group>"; };
+		ED99BD2621AEDF9000C3B831 /* Heroe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroe.swift; sourceTree = "<group>"; };
+		ED99BD2821AEDFF300C3B831 /* Stuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stuff.swift; sourceTree = "<group>"; };
+		ED99BD2A21AEE01600C3B831 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ED99BD2C21AEE03E00C3B831 /* Monstruo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monstruo.swift; sourceTree = "<group>"; };
+		EDB1789121B93065000EF743 /* Shopcontrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopcontrol.swift; sourceTree = "<group>"; };
+		EDB1789321B95F1F000EF743 /* Dungeoncontrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dungeoncontrol.swift; sourceTree = "<group>"; };
 		EDC5077521ADCC3900B039E3 /* DeepDungeonsArturV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeepDungeonsArturV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC5077821ADCC3900B039E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDC5077A21ADCC3900B039E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,7 @@
 		EDC5079421ADCC3A00B039E3 /* DeepDungeonsArturV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepDungeonsArturV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC5079821ADCC3A00B039E3 /* DeepDungeonsArturV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepDungeonsArturV2UITests.swift; sourceTree = "<group>"; };
 		EDC5079A21ADCC3A00B039E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDD7868821C03532003E8315 /* MenucontrolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenucontrolViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +122,20 @@
 				EDC5077821ADCC3900B039E3 /* AppDelegate.swift */,
 				EDC5077A21ADCC3900B039E3 /* ViewController.swift */,
 				EDC5077C21ADCC3900B039E3 /* Main.storyboard */,
+				EDB1789121B93065000EF743 /* Shopcontrol.swift */,
 				EDC5077F21ADCC3A00B039E3 /* Assets.xcassets */,
 				EDC5078121ADCC3A00B039E3 /* LaunchScreen.storyboard */,
 				EDC5078421ADCC3A00B039E3 /* Info.plist */,
+				ED99BD2621AEDF9000C3B831 /* Heroe.swift */,
+				ED99BD2821AEDFF300C3B831 /* Stuff.swift */,
+				ED99BD2A21AEE01600C3B831 /* Item.swift */,
+				ED99BD2C21AEE03E00C3B831 /* Monstruo.swift */,
+				ED153D0A21B6FFB600095F03 /* Variables.swift */,
+				ED153D0E21B708F800095F03 /* ViewInventory.swift */,
+				EDB1789321B95F1F000EF743 /* Dungeoncontrol.swift */,
+				ED5A4B1321B98134000775AF /* Gamecontrol.swift */,
+				ED22754421B9A27C00F2DB35 /* Dado.swift */,
+				EDD7868821C03532003E8315 /* MenucontrolViewController.swift */,
 			);
 			path = DeepDungeonsArturV2;
 			sourceTree = "<group>";
@@ -256,8 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED99BD2D21AEE03E00C3B831 /* Monstruo.swift in Sources */,
+				ED99BD2B21AEE01600C3B831 /* Item.swift in Sources */,
 				EDC5077B21ADCC3900B039E3 /* ViewController.swift in Sources */,
+				ED153D0B21B6FFB600095F03 /* Variables.swift in Sources */,
+				EDB1789221B93065000EF743 /* Shopcontrol.swift in Sources */,
+				ED22754521B9A27C00F2DB35 /* Dado.swift in Sources */,
 				EDC5077921ADCC3900B039E3 /* AppDelegate.swift in Sources */,
+				EDD7868921C03532003E8315 /* MenucontrolViewController.swift in Sources */,
+				EDB1789421B95F1F000EF743 /* Dungeoncontrol.swift in Sources */,
+				ED99BD2921AEDFF300C3B831 /* Stuff.swift in Sources */,
+				ED5A4B1421B98134000775AF /* Gamecontrol.swift in Sources */,
+				ED99BD2721AEDF9000C3B831 /* Heroe.swift in Sources */,
+				ED153D0F21B708F800095F03 /* ViewInventory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
